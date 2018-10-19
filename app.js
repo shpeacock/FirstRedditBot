@@ -24,7 +24,7 @@ const comments = client.CommentStream(streamOpts);
 
 // On comment, perform whatever logic you want to do
 comments.on('comment', (comment) => {
-    if (comment.body === ':(') {
-        comment.reply(':)');
+    if (comment.body === 'I want to die') {
+        comment.reply('I do NOT want you to die because you are a beautiful, wonderful person. You are a gift to the world and I love you VERY MUCH!!!');
     }
 });
